@@ -8,7 +8,7 @@
     <meta name="keywords" content="JotBee,日记app,免费日记,宝宝成长记录,AI写作,本地存储,隐私日记,macOS日记,iOS日记">
     <link rel="icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-    <meta name="theme-color" content="#FFC833">
+    <meta name="theme-color" content="#1A1208">
     <link rel="canonical" href="https://jotbee.app/">
     <meta property="og:title" content="JotBee — 随手记录，酿造生活">
     <meta property="og:description" content="完全免费的日记 App。即开即写，数据本地存储，AI 辅助写作。macOS + iOS 原生体验。">
@@ -28,49 +28,99 @@
     <a href="#main" class="skip-nav">跳到主要内容</a>
 
     <div class="nav"><div class="nav-inner">
-        <a href="./" class="nav-logo"><span class="bee">🐝</span> JotBee</a>
+        <a href="./" class="nav-logo">JotBee</a>
         <button class="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
         <div class="nav-links">
             <a href="#features">功能</a>
+            <a href="#privacy">隐私</a>
             <a href="#ai">AI</a>
             <a href="#story">故事</a>
-            <a href="privacy.html">隐私</a>
             <a href="https://tangzhihong.com/" target="_blank">ClearSky</a>
         </div>
     </div></div>
 
     <main id="main">
 
-    <!-- Hero — Cream -->
-    <div class="section section-cream">
+    <!-- Hero — Dark -->
+    <div class="section section-dark">
         <div class="section-inner">
             <div class="hero">
-                <div class="hero-bee">🐝</div>
+                <img src="icon.png" alt="JotBee" class="hero-icon">
                 <h1 class="headline-hero">随手记录，<br>酿造生活。</h1>
                 <p class="subtitle">打开就写，关掉就走。你的日记只属于你。</p>
                 <p class="hero-tagline-en">Jot it. Keep it. Love it.</p>
                 <div class="cta-group">
                     <a href="#download" class="btn-primary">
-                        <svg viewBox="0 0 16 16" fill="none" width="16" height="16"><path d="M8 1v10M4 7l4 4 4-4M2 14h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        <svg viewBox="0 0 16 16" fill="none" width="15" height="15"><path d="M8 1v10M4 7l4 4 4-4M2 14h12" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
                         免费下载
                     </a>
-                    <a href="#features" class="btn-secondary">了解更多</a>
+                    <a href="#features" class="btn-pill">了解更多</a>
                 </div>
             </div>
-        </div>
-    </div>
-
-    <!-- Screenshot -->
-    <div class="section section-white" style="padding: 0 0 48px">
-        <div class="section-inner">
             <div class="screenshot-showcase">
                 <img src="screenshot-mac.jpg" alt="JotBee macOS 编辑界面" loading="lazy">
             </div>
         </div>
     </div>
 
-    <!-- Numbers — White -->
-    <div class="section section-white" style="padding: 64px 0">
+    <!-- Instant — Cream -->
+    <div id="features" class="section section-cream fade-in">
+        <div class="section-inner">
+            <span class="section-icon">⚡</span>
+            <h2 class="headline-section">即开即写。</h2>
+            <p class="subtitle">原生 SwiftUI 构建，启动秒开。<br>打开就是编辑器，3 秒完成一条记录。不问你要什么，直接让你写。</p>
+        </div>
+    </div>
+
+    <!-- Privacy — Dark -->
+    <div id="privacy" class="section section-dark fade-in">
+        <div class="section-inner">
+            <span class="section-icon">🔒</span>
+            <h2 class="headline-section">你的日记，<br>只属于你。</h2>
+            <p class="subtitle">所有数据本地存储。不依赖云服务，不运营服务器。<br>我们无法接触你的任何数据。这不是功能，是底线。</p>
+            <div class="platforms" style="margin-top: 48px">
+                <div class="platform-item">
+                    <div class="platform-icon">💻</div>
+                    <div class="platform-name">macOS 14.0+</div>
+                </div>
+                <div class="platform-item">
+                    <div class="platform-icon">📱</div>
+                    <div class="platform-name">iOS 17.0+</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- AI — Cream -->
+    <div id="ai" class="section section-cream fade-in">
+        <div class="section-inner">
+            <span class="section-icon">🧠</span>
+            <h2 class="headline-section">AI 帮你回忆。</h2>
+            <p class="subtitle">写完日记，AI Reflect 给你温暖的回应。<br>像一个懂你的朋友，陪你重新看见那些值得记住的瞬间。</p>
+            <div class="screenshot-grid">
+                <div style="text-align:center">
+                    <img src="screenshot-ios.jpg" alt="JotBee iOS AI Reflect" loading="lazy">
+                    <p class="screenshot-caption">AI Reflect 智能回应</p>
+                </div>
+                <div style="text-align:center">
+                    <img src="screenshot-ai.jpg" alt="JotBee AI 引擎配置" loading="lazy">
+                    <p class="screenshot-caption">7 种 AI 引擎 + 本地模型</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Baby — Dark -->
+    <div class="section section-dark fade-in">
+        <div class="section-inner">
+            <span class="section-icon">👶</span>
+            <h2 class="headline-section">宝宝的每个瞬间，<br>都值得记住。</h2>
+            <p class="subtitle">成长里程碑、喂养记录、趣事语录。<br>为新手爸妈量身打造的记录体验。</p>
+        </div>
+    </div>
+
+    <!-- Numbers — Cream -->
+    <div class="section section-cream" style="padding: 80px 0">
         <div class="section-inner">
             <div class="selling-points">
                 <div class="sp-item">
@@ -93,32 +143,11 @@
         </div>
     </div>
 
-    <!-- Features — Warm -->
-    <div id="features" class="section section-warm fade-in">
+    <!-- More Features — Dark (compact grid for secondary features) -->
+    <div class="section section-dark fade-in">
         <div class="section-inner">
-            <h2 class="headline-section">为记录而生。</h2>
-            <p class="subtitle">不是又一个笔记 App。是一只帮你采集生活的小蜜蜂。</p>
+            <h2 class="headline-section">更多细节。</h2>
             <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">⚡</div>
-                    <div class="feature-title">即开即写</div>
-                    <div class="feature-desc">原生 SwiftUI 构建，启动秒开。打开就是编辑器，3 秒完成一条记录。</div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔒</div>
-                    <div class="feature-title">数据纯本地</div>
-                    <div class="feature-desc">不依赖云服务，不运营服务器。你的日记存在你的设备上，我们无法接触。</div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">👶</div>
-                    <div class="feature-title">宝宝模式</div>
-                    <div class="feature-desc">成长里程碑、喂养记录、趣事语录。为新手爸妈量身打造的记录体验。</div>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🤖</div>
-                    <div class="feature-title">AI 辅助写作</div>
-                    <div class="feature-desc">7 种 AI 引擎 + 本地模型。写完日记，AI 给你温暖回应。</div>
-                </div>
                 <div class="feature-card">
                     <div class="feature-icon">🎙️</div>
                     <div class="feature-title">语音写日记</div>
@@ -127,62 +156,34 @@
                 <div class="feature-card">
                     <div class="feature-icon">📄</div>
                     <div class="feature-title">导出自由</div>
-                    <div class="feature-desc">支持 PDF、Markdown 导出。数据永远在你手中，随时可以带走。</div>
+                    <div class="feature-desc">PDF、Markdown 导出。数据永远在你手中。</div>
                 </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Privacy — Brown -->
-    <div class="section section-brown fade-in">
-        <div class="section-inner">
-            <h2 class="headline-section">隐私不是功能，<br>是底线。</h2>
-            <p class="subtitle">不是「支持本地存储」。<br>是因为不信任大厂，所以自己造了一个。</p>
-            <div class="platforms" style="margin-top: 48px">
-                <div class="platform-item">
-                    <div class="platform-icon">💻</div>
-                    <div class="platform-name">macOS 14.0+</div>
-                </div>
-                <div class="platform-item">
-                    <div class="platform-icon">📱</div>
-                    <div class="platform-name">iOS 17.0+</div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- AI — Cream -->
-    <div id="ai" class="section section-cream fade-in">
-        <div class="section-inner">
-            <h2 class="headline-section">AI 帮你回忆。</h2>
-            <p class="subtitle">写完日记，AI Reflect 给你温暖的回应。<br>像一个懂你的朋友，陪你重新看见那些值得记住的瞬间。</p>
-            <div class="screenshot-grid">
-                <div style="text-align:center">
-                    <img src="screenshot-ios.jpg" alt="JotBee iOS AI Reflect" loading="lazy">
-                    <p class="screenshot-caption">AI Reflect 智能回应</p>
-                </div>
-                <div style="text-align:center">
-                    <img src="screenshot-ai.jpg" alt="JotBee AI 引擎配置" loading="lazy">
-                    <p class="screenshot-caption">7 种 AI 引擎 + 本地模型</p>
-                </div>
-            </div>
-            <div class="features-grid" style="grid-template-columns: repeat(2, 1fr); max-width: 700px; margin-left: auto; margin-right: auto; margin-top: 40px">
                 <div class="feature-card">
-                    <div class="feature-icon">🧠</div>
-                    <div class="feature-title">多引擎支持</div>
-                    <div class="feature-desc">Claude、DeepSeek、Gemini、ChatGPT、Ollama 本地模型——选你喜欢的。</div>
+                    <div class="feature-icon">🔍</div>
+                    <div class="feature-title">快速检索</div>
+                    <div class="feature-desc">全文搜索，按日期、标签筛选。</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <div class="feature-title">主题配色</div>
+                    <div class="feature-desc">8 套主题，5 级字号，找到你的舒适区。</div>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">💰</div>
-                    <div class="feature-title">用你自己的 Key</div>
-                    <div class="feature-desc">AI 用你自己的 API Key，花多少完全透明。本地模型完全免费。</div>
+                    <div class="feature-title">用你的 Key</div>
+                    <div class="feature-desc">AI 用你自己的 API Key，费用透明。</div>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <div class="feature-title">双平台原生</div>
+                    <div class="feature-desc">macOS + iOS，SwiftUI 构建，不是套壳。</div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Story — White -->
-    <div id="story" class="section section-white fade-in">
+    <!-- Story — Cream -->
+    <div id="story" class="section section-cream fade-in">
         <div class="section-inner">
             <h2 class="headline-section">为什么做 JotBee。</h2>
             <div class="story-block">
@@ -196,18 +197,18 @@
         </div>
     </div>
 
-    <!-- Download CTA — Honey -->
-    <div id="download" class="section section-honey" style="padding: 80px 0">
+    <!-- CTA — Gold -->
+    <div id="download" class="section section-gold" style="padding: 100px 0">
         <div class="section-inner" style="text-align: center">
             <h2 class="headline-section">开始记录。</h2>
-            <p class="subtitle" style="color: rgba(44, 34, 0, 0.7)">完全免费，无试用期，无内购，无广告。</p>
+            <p class="subtitle" style="color: rgba(26, 18, 8, 0.65)">完全免费，无试用期，无内购，无广告。</p>
             <div class="cta-group" style="margin-top: 28px">
                 <a href="https://apps.apple.com/app/jotbee" class="badge-appstore">
                     <span class="apple-icon">🍎</span>
                     App Store 下载
                 </a>
             </div>
-            <p style="font-size: 14px; color: rgba(44, 34, 0, 0.5); margin-top: 16px">macOS 14.0+ · iOS 17.0+ · 完全免费</p>
+            <p class="meta" style="color: rgba(26, 18, 8, 0.4)">macOS 14.0+ · iOS 17.0+ · 完全免费</p>
         </div>
     </div>
 
