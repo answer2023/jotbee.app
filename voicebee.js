@@ -175,7 +175,7 @@ const Hero = () => /*#__PURE__*/React.createElement("section", {
   className: "btn btn-ghost"
 }, "\u4E86\u89E3\u66F4\u591A")), /*#__PURE__*/React.createElement("div", {
   className: "product-hero-meta"
-}, "v1.2.2 \xB7 macOS 14.0+ \xB7 \u5B8C\u5168\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
+}, "v1.2.2 \xB7 macOS 14.0+ \xB7 \u9650\u65F6\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
   className: "vb-hero-panel"
 }, /*#__PURE__*/React.createElement("div", {
   className: "vb-hero-text"
@@ -337,7 +337,7 @@ const CTA = () => /*#__PURE__*/React.createElement("section", {
   className: "eyebrow"
 }, "\u73B0\u5728\u5C31\u4E0B\u8F7D"), /*#__PURE__*/React.createElement("h2", {
   className: "headline-section"
-}, "\u514D\u8D39\u7528\u8D77\u6765\u3002"), /*#__PURE__*/React.createElement("p", {
+}, "\u9650\u65F6\u514D\u8D39\uFF0C\u7528\u8D77\u6765\u3002"), /*#__PURE__*/React.createElement("p", {
   className: "subtitle",
   style: {
     margin: "16px auto 0"
@@ -345,7 +345,8 @@ const CTA = () => /*#__PURE__*/React.createElement("section", {
 }, "\u65E0\u5185\u8D2D\uFF0C\u65E0\u5E7F\u544A\uFF0C\u65E0\u8D26\u53F7\u3002"), /*#__PURE__*/React.createElement("div", {
   className: "cta-buttons"
 }, /*#__PURE__*/React.createElement("a", {
-  href: "https://github.com/answer2023/VoiceBee-Releases/releases/latest",
+  href: "https://github.com/answer2023/VoiceBee-Releases/releases/latest/download/VoiceBee.dmg",
+  download: "VoiceBee.dmg",
   className: "btn btn-primary"
 }, /*#__PURE__*/React.createElement(Icon, {
   name: "download",
