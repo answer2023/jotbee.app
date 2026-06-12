@@ -194,7 +194,7 @@ const Hero = () => /*#__PURE__*/React.createElement("section", {
   className: "btn btn-ghost"
 }, "\u4E86\u89E3\u66F4\u591A")), /*#__PURE__*/React.createElement("div", {
   className: "product-hero-meta"
-}, "v1.1.0 \xB7 iOS 17.0+ \xB7 macOS 14.0+ \xB7 \u5B8C\u5168\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
+}, "v1.2.0 \xB7 iOS 17.0+ \xB7 macOS 14.0+ \xB7 \u5B8C\u5168\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
   className: "devices-row",
   style: {
     maxWidth: "720px",
@@ -303,6 +303,10 @@ const Stats = () => /*#__PURE__*/React.createElement("section", {
 }, "\u65E0\u5185\u8D2D\u65E0\u5E7F\u544A")))));
 const FeaturesGrid = () => {
   const items = [{
+    icon: "bolt",
+    title: "自动记录天气",
+    desc: "写日记的瞬间，当时的天气和温度自动钉在这条记忆上。"
+  }, {
     icon: "mic",
     title: "语音写日记",
     desc: "与 VoiceBee 联动，按住说话松开就变成文字。"
