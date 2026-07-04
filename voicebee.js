@@ -175,7 +175,7 @@ const Hero = () => /*#__PURE__*/React.createElement("section", {
   className: "btn btn-ghost"
 }, "\u4E86\u89E3\u66F4\u591A")), /*#__PURE__*/React.createElement("div", {
   className: "product-hero-meta"
-}, "v1.2.2 \xB7 macOS 14.0+ \xB7 \u9650\u65F6\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
+}, "v1.3.0 \xB7 macOS 14.0+ \xB7 \u9650\u65F6\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
   className: "vb-hero-panel"
 }, /*#__PURE__*/React.createElement("div", {
   className: "vb-hero-text"
