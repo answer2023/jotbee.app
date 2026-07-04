@@ -410,7 +410,7 @@ const App = () => /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PU
   dark: true
 }), /*#__PURE__*/React.createElement(FeatureBlock, {
   eyebrow: "\u9690\u79C1",
-  title: "\u4F60\u7684\u58F0\u97F3\u4E0D\u4F1A\u88AB\u4E0A\u4F20\u3002",
-  desc: "\u8BED\u97F3\u8BC6\u522B\u57FA\u4E8E Apple \u672C\u5730\u6846\u67B6\uFF0C\u4E0D\u7ECF\u8FC7\u7B2C\u4E09\u65B9\u670D\u52A1\u5668\u3002AI \u6DA6\u8272\u548C\u7FFB\u8BD1\u4F7F\u7528\u4F60\u81EA\u5DF1\u7684 API Key\uFF0C\u8D39\u7528\u5B8C\u5168\u900F\u660E\u3002"
+  title: "语音可完全在本地处理。",
+  desc: "选用 WhisperKit 引擎时，语音完全在本地处理；该引擎首次使用需联网下载模型，之后完全离线运行。选用 Apple 语音识别时，音频由 Apple 系统服务处理（受 Apple 隐私政策约束）。AI 润色和翻译使用你自己的 API Key，仅发送文字，费用透明。"
 }), /*#__PURE__*/React.createElement(FeaturesGrid, null), /*#__PURE__*/React.createElement(Steps, null), /*#__PURE__*/React.createElement(Changelog, null), /*#__PURE__*/React.createElement(CTA, null)), /*#__PURE__*/React.createElement(Footer, null));
 ReactDOM.createRoot(document.getElementById("root")).render(/*#__PURE__*/React.createElement(App, null));
