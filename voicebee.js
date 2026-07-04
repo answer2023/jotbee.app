@@ -208,7 +208,7 @@ const FeaturesGrid = () => {
   const items = [{
     icon: "mic",
     title: "实时识别",
-    desc: "流式语音转文字，边说边出字，五种语言。"
+    desc: "流式语音转文字，边说边出字，八种语言。"
   }, {
     icon: "keyboard",
     title: "全局可用",
@@ -223,8 +223,8 @@ const FeaturesGrid = () => {
     desc: "修正同音字、补标点、去口头禅、调语序。"
   }, {
     icon: "bolt",
-    title: "双模式",
-    desc: "即时上屏 / 润色上屏，双击 Fn 切换。"
+    title: "四档风格",
+    desc: "原文 / 轻润色 / 结构化 / 正式，双击修饰键切换。"
   }, {
     icon: "globe",
     title: "浮窗预览",
