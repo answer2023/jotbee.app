@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VoiceBee 隐私政策</title>
+    <meta name="description" content="VoiceBee 隐私政策：如实说明语音、文字数据的处理方式与去向。支持完全本地运行。">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .privacy-wrap { max-width: 720px; margin: 0 auto; padding: 96px 24px 120px; }
+        .privacy-wrap h1 { font-size: 40px; letter-spacing: -0.02em; margin-bottom: 8px; }
+        .privacy-meta { color: var(--text-tertiary); font-size: 15px; margin-bottom: 40px; }
+        .privacy-wrap h2 { font-size: 22px; margin: 40px 0 12px; letter-spacing: -0.01em; }
+        .privacy-wrap p, .privacy-wrap li { color: var(--text-secondary); font-size: 17px; line-height: 1.6; }
+        .privacy-wrap ul { padding-left: 20px; margin: 8px 0; }
+        .privacy-wrap li { margin: 6px 0; }
+        .privacy-lead { font-size: 19px; color: var(--text-primary); margin-bottom: 8px; }
+        .privacy-back { display: inline-block; margin-bottom: 40px; color: var(--accent); text-decoration: none; font-size: 15px; }
+        .privacy-back:hover { text-decoration: underline; }
+        .privacy-note { color: var(--text-tertiary); font-size: 14px; margin-top: 8px; }
+    </style>
+</head>
+<body>
+    <div class="privacy-wrap">
+        <a class="privacy-back" href="voicebee.html">← 返回 VoiceBee</a>
+        <h1>VoiceBee 隐私政策</h1>
+        <p class="privacy-meta">生效日期：[待填] · 开发者：[待填 · ClearSky 工作室 / 主体名称]</p>
+
+        <p class="privacy-lead">VoiceBee 是一款 macOS 语音输入工具，把「数据尽量留在你自己手里」作为设计原则。本政策如实说明我们处理哪些数据、数据去了哪里、以及你能如何控制。</p>
+
+        <h2>一、核心原则：你可以选择完全本地</h2>
+        <p>VoiceBee 的语音识别和 AI 处理都支持完全本地运行。若你选择 WhisperKit 识别引擎 + 本地 Ollama 润色，你的语音和文字全程不离开这台 Mac。是否联网、用哪个引擎，由你在设置中决定。</p>
+
+        <h2>二、语音音频的处理</h2>
+        <p>VoiceBee 提供两种语音识别引擎，音频处理方式不同：</p>
+        <ul>
+            <li><strong>WhisperKit 引擎</strong>：语音在你的 Mac 上本地识别，音频不会上传。该引擎首次使用时需联网下载识别模型（约 626MB），下载后即可完全离线使用。</li>
+            <li><strong>Apple 语音识别引擎</strong>（系统内置）：调用 macOS 的语音识别服务。根据 Apple 的机制，音频可能被发送到 Apple 的服务器进行识别，受 <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener noreferrer">Apple 隐私政策</a> 约束；是否本地由 macOS 系统决定。</li>
+        </ul>
+        <p>VoiceBee 本身没有服务器，我们不接收、不存储、不转发你的任何音频。</p>
+
+        <h2>三、文字的处理（AI 润色 / 翻译）</h2>
+        <p>当你使用 AI 润色或翻译时，VoiceBee 会把「需要处理的文字 + 你设置的常用语言 + 你在词典中添加的专有名词」发送给你自己配置的 AI 服务：</p>
+        <ul>
+            <li>若使用云端服务（如 Claude、DeepSeek、Gemini、OpenAI 兼容接口），上述内容会发送到你选择的服务商，受其各自隐私政策约束；</li>
+            <li>若使用本地 Ollama，文字仅在你的 Mac 上处理，不上传。</li>
+        </ul>
+        <p>这些请求使用你自己的 API 密钥直接发往对应服务，VoiceBee 不做中转、不留副本。</p>
+
+        <h2>四、数据存储（均在你的设备本地）</h2>
+        <p>VoiceBee 不上传或备份你的任何个人数据。以下数据仅保存在你的 Mac 上：</p>
+        <ul>
+            <li><strong>API 密钥</strong>：存储在 macOS 钥匙串（Keychain），加密保护；</li>
+            <li><strong>历史记录</strong>：最近 50 条转写记录，保存在应用支持目录，可随时在设置中清空；</li>
+            <li><strong>自定义词典、使用统计</strong>：保存在本地。</li>
+        </ul>
+
+        <h2>五、权限说明</h2>
+        <p>VoiceBee 需要以下 macOS 权限，仅用于其功能：</p>
+        <ul>
+            <li><strong>麦克风</strong>：录制你的语音以进行识别；</li>
+            <li><strong>语音识别</strong>：将语音转为文字（仅 Apple 引擎需要）；</li>
+            <li><strong>辅助功能</strong>：读取你选中的文字（翻译功能）、将结果输入到当前应用。</li>
+        </ul>
+
+        <h2>六、我们不做的事</h2>
+        <ul>
+            <li>不收集、不上传你的音频或文字到 VoiceBee 的服务器（我们没有服务器）；</li>
+            <li>不含广告、不做用户追踪、不出售任何数据；</li>
+            <li>不需要注册账号。</li>
+        </ul>
+
+        <h2>七、儿童隐私</h2>
+        <p>VoiceBee 不面向 14 岁以下儿童，也不有意收集其个人信息。</p>
+
+        <h2>八、政策变更</h2>
+        <p>本政策如有更新，将在本页面公布并更新生效日期。</p>
+
+        <h2>九、联系我们</h2>
+        <p>如有隐私相关问题，请联系：[待填 · 邮箱]</p>
+        <p class="privacy-note">本页为隐私政策，正式对外前建议由法律专业人士审阅定稿。</p>
+    </div>
+</body>
+</html>
