@@ -239,8 +239,8 @@ const FeaturesGrid = () => {
     desc: "最近 50 条语音记录，随时回看和重新输入。"
   }, {
     icon: "lock",
-    title: "本地优先",
-    desc: "语音识别基于 Apple 本地框架，不上传服务器。"
+    title: "本地可选",
+    desc: "可选 WhisperKit 引擎完全本地识别，音频不出设备；或用 Apple 系统识别。"
   }];
   return /*#__PURE__*/React.createElement("section", {
     id: "features",
