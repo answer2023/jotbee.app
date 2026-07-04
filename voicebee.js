@@ -306,6 +306,10 @@ const Changelog = () => /*#__PURE__*/React.createElement("section", {
   className: "changelog"
 }, /*#__PURE__*/React.createElement("div", {
   className: "changelog-entry"
+}, /*#__PURE__*/React.createElement("h3", null, "v1.3.0 ", /*#__PURE__*/React.createElement("span", {
+  className: "changelog-date"
+}, "2026.07.04")), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, "新增 WhisperKit 本地识别引擎，英文专有名词识别更准"), /*#__PURE__*/React.createElement("li", null, "录音快捷键完全可自定义：单键或组合键，按住说话 / 单击切换两种模式"), /*#__PURE__*/React.createElement("li", null, "词典自动纠正识别错的专有名词"), /*#__PURE__*/React.createElement("li", null, "四档输出风格：原文 / 轻润色 / 结构化 / 正式"), /*#__PURE__*/React.createElement("li", null, "19 项稳定性与体验修复"))), /*#__PURE__*/React.createElement("div", {
+  className: "changelog-entry"
 }, /*#__PURE__*/React.createElement("h3", null, "v1.2.2 ", /*#__PURE__*/React.createElement("span", {
   className: "changelog-date"
 }, "2026.05.07")), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, "全新 app 图标：复古金属麦克风设计"), /*#__PURE__*/React.createElement("li", null, "修复：自动更新源迁移到公开 release feed，后续版本可正常推送"))), /*#__PURE__*/React.createElement("div", {
