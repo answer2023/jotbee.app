@@ -119,8 +119,10 @@ const Nav = () => /*#__PURE__*/React.createElement("nav", {
     color: "#fff"
   }
 }, "VoiceBee"), /*#__PURE__*/React.createElement("a", {
-  href: "jotbee.html"
+  href: "index.html"
 }, "JotBee"), /*#__PURE__*/React.createElement("a", {
+  href: "https://fund.jotbee.app"
+}, "基金诊断"), /*#__PURE__*/React.createElement("a", {
   href: "index.html#blog"
 }, "Blog"), /*#__PURE__*/React.createElement("a", {
   href: "index.html#about"
@@ -379,8 +381,10 @@ const Footer = () => /*#__PURE__*/React.createElement("footer", {
 }, /*#__PURE__*/React.createElement("h4", null, "Products"), /*#__PURE__*/React.createElement("a", {
   href: "voicebee.html"
 }, "VoiceBee"), /*#__PURE__*/React.createElement("a", {
-  href: "jotbee.html"
-}, "JotBee")), /*#__PURE__*/React.createElement("div", {
+  href: "index.html"
+}, "JotBee"), /*#__PURE__*/React.createElement("a", {
+  href: "https://fund.jotbee.app"
+}, "基金诊断")), /*#__PURE__*/React.createElement("div", {
   className: "footer-col"
 }, /*#__PURE__*/React.createElement("h4", null, "Resources"), /*#__PURE__*/React.createElement("a", {
   href: "index.html#blog"
