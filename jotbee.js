@@ -167,7 +167,9 @@ const SubNav = () => /*#__PURE__*/React.createElement("div", {
   href: "#story"
 }, "\u6545\u4E8B"), /*#__PURE__*/React.createElement("a", {
   href: "#download"
-}, "\u4E0B\u8F7D"))));
+}, "\u4E0B\u8F7D"), /*#__PURE__*/React.createElement("a", {
+  href: "changelog.html"
+}, "\u66F4\u65B0\u65E5\u5FD7"))));
 const Hero = () => /*#__PURE__*/React.createElement("section", {
   className: "section section-dark",
   style: {
@@ -196,7 +198,7 @@ const Hero = () => /*#__PURE__*/React.createElement("section", {
   className: "btn btn-ghost"
 }, "\u4E86\u89E3\u66F4\u591A")), /*#__PURE__*/React.createElement("div", {
   className: "product-hero-meta"
-}, "v1.2.0 \xB7 iOS 17.0+ \xB7 macOS 14.0+ \xB7 \u5B8C\u5168\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
+}, "v1.2.1 \xB7 iOS 17.0+ \xB7 macOS 14.0+ \xB7 \u5B8C\u5168\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
   className: "devices-row",
   style: {
     maxWidth: "720px",
@@ -436,7 +438,9 @@ const Footer = () => /*#__PURE__*/React.createElement("footer", {
   href: "index.html#blog"
 }, "Blog"), /*#__PURE__*/React.createElement("a", {
   href: "index.html#about"
-}, "\u5173\u4E8E")), /*#__PURE__*/React.createElement("div", {
+}, "\u5173\u4E8E"), /*#__PURE__*/React.createElement("a", {
+  href: "changelog.html"
+}, "\u66F4\u65B0\u65E5\u5FD7")), /*#__PURE__*/React.createElement("div", {
   className: "footer-col"
 }, /*#__PURE__*/React.createElement("h4", null, "Contact"), /*#__PURE__*/React.createElement("a", {
   href: "privacy.html"

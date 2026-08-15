@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JotBee 更新日志</title>
+    <meta name="description" content="JotBee 的每一次可感知改进：新功能、体验优化与问题修复。">
+    <link rel="icon" type="image/png" href="assets/favicon-jotbee.png">
+    <link rel="apple-touch-icon" href="assets/favicon-jotbee.png">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .changelog-wrap { max-width: 720px; margin: 0 auto; padding: 96px 24px 120px; }
+        .changelog-wrap h1 { font-size: 40px; letter-spacing: -0.02em; margin-bottom: 8px; }
+        .changelog-meta { color: var(--text-tertiary); font-size: 15px; margin-bottom: 48px; }
+        .changelog-back { display: inline-block; margin-bottom: 40px; color: var(--accent); text-decoration: none; font-size: 15px; }
+        .changelog-back:hover { text-decoration: underline; }
+        .release { margin-bottom: 56px; }
+        .release-head { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin-bottom: 4px; }
+        .release-head h2 { font-size: 22px; letter-spacing: -0.01em; margin: 0; }
+        .release-badge { font-size: 12px; padding: 3px 10px; border-radius: 999px; background: var(--accent); color: #fff; white-space: nowrap; }
+        .release-badge.badge-live { background: #27AE60; }
+        .release-date { color: var(--text-tertiary); font-size: 14px; }
+        .release ul { padding-left: 20px; margin: 12px 0 0; }
+        .release li { color: var(--text-secondary); font-size: 17px; line-height: 1.65; margin: 10px 0; }
+        .release li strong { color: var(--text-primary); }
+        .release-note { color: var(--text-tertiary); font-size: 14px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <div class="changelog-wrap">
+        <a class="changelog-back" href="index.html">← 返回 JotBee</a>
+        <h1>更新日志</h1>
+        <p class="changelog-meta">JotBee 的每一次可感知改进，都记在这里。</p>
+
+        <div class="release">
+            <div class="release-head">
+                <h2>即将推出</h2>
+                <span class="release-badge">开发完成 · 随下个版本上线</span>
+            </div>
+            <ul>
+                <li><strong>笔记本拖拽排序</strong> — 长按笔记本卡片「拿起」，左右拖动即可调整顺序（Mac 上直接拖动侧栏）。新建的笔记本不再永远排在最后，想放最前就放最前。</li>
+                <li><strong>合并日记</strong> — 把一个笔记本的全部日记一键并入另一个笔记本，按时间线自然排列，一条不丢；原笔记本保留，方便继续使用或删除。</li>
+                <li><strong>照片加载提速</strong> — 缩略图改用系统级降采样并缓存，翻看带照片的日记明显更流畅，内存占用更低。</li>
+                <li><strong>全局字号全面生效</strong> — 设置里的字号调整现在作用于所有界面，不再有「漏网」的页面。</li>
+                <li><strong>AI Reflect 显示修复</strong> — 修复生成完成后同一条回应出现两张相同卡片的问题，现在生成结束内容会直接落进日记。</li>
+            </ul>
+        </div>
+
+        <div class="release">
+            <div class="release-head">
+                <h2>iCloud 同步修复</h2>
+                <span class="release-badge badge-live">服务端修复 · 已生效</span>
+                <span class="release-date">2026-08-13</span>
+            </div>
+            <ul>
+                <li><strong>iPhone 与 Mac 双端同步恢复</strong> — 修复了云端数据库配置缺失导致心情、天气、照片等字段无法同步、进而阻断双端互通的问题。无需更新 App，重新启动 JotBee 即自动恢复同步，历史日记会自动汇合到所有设备。</li>
+            </ul>
+        </div>
+
+        <div class="release">
+            <div class="release-head">
+                <h2>v1.2.1</h2>
+                <span class="release-badge badge-live">当前版本</span>
+            </div>
+            <ul>
+                <li><strong>天气更尊重你的选择</strong> — 天气记录默认关闭，只在你主动开启时才请求定位权限。</li>
+                <li><strong>iPad 分享修复</strong> — 修复 iPad 上分享日记时的崩溃。</li>
+                <li>导出文件与反馈页统一使用 JotBee 名称。</li>
+            </ul>
+        </div>
+
+        <div class="release">
+            <div class="release-head">
+                <h2>v1.2.0</h2>
+            </div>
+            <ul>
+                <li><strong>macOS 版正式更名 JotBee</strong> — 双端名称统一。</li>
+                <li><strong>天气数据来源透明</strong> — 全部天气展示界面标注  Weather 及数据来源。</li>
+                <li><strong>AI 功能更从容</strong> — 未配置 AI 服务时优雅提示，不再影响正常写日记。</li>
+            </ul>
+            <p class="release-note">更早版本的改动未在此逐条列出。</p>
+        </div>
+    </div>
+</body>
+</html>
