@@ -177,7 +177,7 @@ const Hero = () => /*#__PURE__*/React.createElement("section", {
   className: "btn btn-ghost"
 }, "\u4E86\u89E3\u66F4\u591A")), /*#__PURE__*/React.createElement("div", {
   className: "product-hero-meta"
-}, "v1.3.2 \xB7 macOS 14.0+ \xB7 \u9650\u65F6\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
+}, "v1.3.3 \xB7 macOS 14.0+ \xB7 \u9650\u65F6\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
   className: "vb-hero-panel"
 }, /*#__PURE__*/React.createElement("div", {
   className: "vb-hero-text"
@@ -242,7 +242,7 @@ const FeaturesGrid = () => {
   }, {
     icon: "lock",
     title: "本地可选",
-    desc: "可选 WhisperKit 引擎完全本地识别，音频不出设备；或用 Apple 系统识别。"
+    desc: "可选 WhisperKit 引擎（实验性）完全本地识别，音频不出设备；或用 Apple 系统识别。"
   }];
   return /*#__PURE__*/React.createElement("section", {
     id: "features",
@@ -307,6 +307,10 @@ const Changelog = () => /*#__PURE__*/React.createElement("section", {
 }, "\u66F4\u65B0\u65E5\u5FD7"), /*#__PURE__*/React.createElement("h2", null, "\u6301\u7EED\u5728\u6253\u78E8\u3002")), /*#__PURE__*/React.createElement("div", {
   className: "changelog"
 }, /*#__PURE__*/React.createElement("div", {
+  className: "changelog-entry"
+}, /*#__PURE__*/React.createElement("h3", null, "v1.3.3 ", /*#__PURE__*/React.createElement("span", {
+  className: "changelog-date"
+}, "2026.10.05")), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, "口述翻译失败时，悬浮窗会直接提示原因，不再悄悄输出原文"), /*#__PURE__*/React.createElement("li", null, "WhisperKit 引擎：修复句尾丢字、短句识别不出的问题，出字明显加快"), /*#__PURE__*/React.createElement("li", null, "WhisperKit 现标注为实验性引擎，日常使用建议选内置引擎"))), /*#__PURE__*/React.createElement("div", {
   className: "changelog-entry"
 }, /*#__PURE__*/React.createElement("h3", null, "v1.3.2 ", /*#__PURE__*/React.createElement("span", {
   className: "changelog-date"
@@ -423,6 +427,6 @@ const App = () => /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PU
 }), /*#__PURE__*/React.createElement(FeatureBlock, {
   eyebrow: "\u9690\u79C1",
   title: "语音可完全在本地处理。",
-  desc: "选用 WhisperKit 引擎时，语音完全在本地处理；该引擎首次使用需联网下载模型，之后完全离线运行。选用 Apple 语音识别时，音频由 Apple 系统服务处理（受 Apple 隐私政策约束）。AI 润色和翻译使用你自己的 API Key，仅发送文字，费用透明。"
+  desc: "选用 WhisperKit 引擎（实验性）时，语音完全在本地处理；该引擎首次使用需联网下载模型，之后完全离线运行。选用 Apple 语音识别时，音频由 Apple 系统服务处理（受 Apple 隐私政策约束）。AI 润色和翻译使用你自己的 API Key，仅发送文字，费用透明。"
 }), /*#__PURE__*/React.createElement(FeaturesGrid, null), /*#__PURE__*/React.createElement(Steps, null), /*#__PURE__*/React.createElement(Changelog, null), /*#__PURE__*/React.createElement(CTA, null)), /*#__PURE__*/React.createElement(Footer, null));
 ReactDOM.createRoot(document.getElementById("root")).render(/*#__PURE__*/React.createElement(App, null));
