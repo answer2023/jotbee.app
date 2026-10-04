@@ -177,7 +177,7 @@ const Hero = () => /*#__PURE__*/React.createElement("section", {
   className: "btn btn-ghost"
 }, "\u4E86\u89E3\u66F4\u591A")), /*#__PURE__*/React.createElement("div", {
   className: "product-hero-meta"
-}, "v1.3.1 \xB7 macOS 14.0+ \xB7 \u9650\u65F6\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
+}, "v1.3.2 \xB7 macOS 14.0+ \xB7 \u9650\u65F6\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
   className: "vb-hero-panel"
 }, /*#__PURE__*/React.createElement("div", {
   className: "vb-hero-text"
@@ -307,6 +307,10 @@ const Changelog = () => /*#__PURE__*/React.createElement("section", {
 }, "\u66F4\u65B0\u65E5\u5FD7"), /*#__PURE__*/React.createElement("h2", null, "\u6301\u7EED\u5728\u6253\u78E8\u3002")), /*#__PURE__*/React.createElement("div", {
   className: "changelog"
 }, /*#__PURE__*/React.createElement("div", {
+  className: "changelog-entry"
+}, /*#__PURE__*/React.createElement("h3", null, "v1.3.2 ", /*#__PURE__*/React.createElement("span", {
+  className: "changelog-date"
+}, "2026.10.04")), /*#__PURE__*/React.createElement("ul", null, /*#__PURE__*/React.createElement("li", null, "修复说完话后最后一两个字偶尔没有上屏的问题"))), /*#__PURE__*/React.createElement("div", {
   className: "changelog-entry"
 }, /*#__PURE__*/React.createElement("h3", null, "v1.3.1 ", /*#__PURE__*/React.createElement("span", {
   className: "changelog-date"
