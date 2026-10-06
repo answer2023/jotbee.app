@@ -407,6 +407,8 @@ const Footer = () => /*#__PURE__*/React.createElement("footer", {
 }, /*#__PURE__*/React.createElement("h4", null, "Contact"), /*#__PURE__*/React.createElement("a", {
   href: "privacy.html"
 }, "Privacy"), /*#__PURE__*/React.createElement("a", {
+  href: "terms.html"
+}, "Terms"), /*#__PURE__*/React.createElement("a", {
   href: "mailto:hi@tangzhihong.com"
 }, "Email"))), /*#__PURE__*/React.createElement("div", {
   className: "footer-legal"
