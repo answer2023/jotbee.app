@@ -148,7 +148,7 @@ const SubNav = () => /*#__PURE__*/React.createElement("div", {
   href: "#changelog"
 }, "\u66F4\u65B0\u65E5\u5FD7"), /*#__PURE__*/React.createElement("a", {
   href: "#download"
-}, "\u4E0B\u8F7D"))));
+}, "\u656C\u8BF7\u671F\u5F85"))));
 const Hero = () => /*#__PURE__*/React.createElement("section", {
   className: "section section-dark",
   style: {
@@ -166,18 +166,17 @@ const Hero = () => /*#__PURE__*/React.createElement("section", {
   className: "product-hero-tag"
 }, "\u6309\u4F4F\u8BF4\u8BDD\uFF0C\u677E\u5F00\u8F93\u5165\u3002", /*#__PURE__*/React.createElement("br", null), "\u9009\u4E2D\u6587\u5B57\uFF0C\u4E00\u952E\u7FFB\u8BD1\u3002"), /*#__PURE__*/React.createElement("div", {
   className: "cta-buttons"
-}, /*#__PURE__*/React.createElement("a", {
-  href: "#download",
-  className: "btn btn-primary"
-}, /*#__PURE__*/React.createElement(Icon, {
-  name: "download",
-  size: 14
-}), "Download for macOS"), /*#__PURE__*/React.createElement("a", {
+}, /*#__PURE__*/React.createElement("span", {
+  className: "btn btn-primary",
+  style: {
+    cursor: "default"
+  }
+}, "\u656C\u8BF7\u671F\u5F85"), /*#__PURE__*/React.createElement("a", {
   href: "#features",
   className: "btn btn-ghost"
 }, "\u4E86\u89E3\u66F4\u591A")), /*#__PURE__*/React.createElement("div", {
   className: "product-hero-meta"
-}, "v1.3.3 \xB7 macOS 14.0+ \xB7 \u9650\u65F6\u514D\u8D39")), /*#__PURE__*/React.createElement("div", {
+}, "macOS 14.0+ \xB7 \u656C\u8BF7\u671F\u5F85")), /*#__PURE__*/React.createElement("div", {
   className: "vb-hero-panel"
 }, /*#__PURE__*/React.createElement("div", {
   className: "vb-hero-text"
@@ -353,31 +352,14 @@ const CTA = () => /*#__PURE__*/React.createElement("section", {
   className: "section-inner center"
 }, /*#__PURE__*/React.createElement("div", {
   className: "eyebrow"
-}, "\u73B0\u5728\u5C31\u4E0B\u8F7D"), /*#__PURE__*/React.createElement("h2", {
+}, "\u656C\u8BF7\u671F\u5F85"), /*#__PURE__*/React.createElement("h2", {
   className: "headline-section"
-}, "\u9650\u65F6\u514D\u8D39\uFF0C\u7528\u8D77\u6765\u3002"), /*#__PURE__*/React.createElement("p", {
-  className: "subtitle",
-  style: {
-    margin: "16px auto 0"
-  }
-}, "\u65E0\u5185\u8D2D\uFF0C\u65E0\u5E7F\u544A\uFF0C\u65E0\u8D26\u53F7\u3002"), /*#__PURE__*/React.createElement("div", {
+}, "\u6B63\u5728\u6253\u78E8\uFF0C\u656C\u8BF7\u671F\u5F85\u3002"), /*#__PURE__*/React.createElement("div", {
   className: "cta-buttons"
 }, /*#__PURE__*/React.createElement("a", {
-  href: "https://github.com/answer2023/VoiceBee-Releases/releases/latest/download/VoiceBee.dmg",
-  download: "VoiceBee.dmg",
-  className: "btn btn-primary"
-}, /*#__PURE__*/React.createElement(Icon, {
-  name: "download",
-  size: 14
-}), "Download for macOS"), /*#__PURE__*/React.createElement("a", {
   href: "index.html",
   className: "btn btn-ghost"
-}, "\u4E86\u89E3 ClearSky")), /*#__PURE__*/React.createElement("p", {
-  className: "product-hero-meta",
-  style: {
-    marginTop: "24px"
-  }
-}, "\u4EC5\u652F\u6301 Apple Silicon Mac (M1 / M2 / M3 / M4)", /*#__PURE__*/React.createElement("br", null), "\u9996\u6B21\u542F\u52A8\u9700\u53F3\u952E App \u2192 \u6253\u5F00")));
+}, "\u4E86\u89E3 ClearSky"))));
 const Footer = () => /*#__PURE__*/React.createElement("footer", {
   className: "footer"
 }, /*#__PURE__*/React.createElement("div", {
