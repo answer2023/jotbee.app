@@ -387,13 +387,13 @@ const Footer = () => /*#__PURE__*/React.createElement("footer", {
 }, "\u5173\u4E8E")), /*#__PURE__*/React.createElement("div", {
   className: "footer-col"
 }, /*#__PURE__*/React.createElement("h4", null, "Contact"), /*#__PURE__*/React.createElement("a", {
-  href: "privacy.html"
+  href: "voicebee-privacy.html"
 }, "Privacy"), /*#__PURE__*/React.createElement("a", {
   href: "mailto:hi@tangzhihong.com"
 }, "Email"))), /*#__PURE__*/React.createElement("div", {
   className: "footer-legal"
 }, /*#__PURE__*/React.createElement("span", null, "Copyright \xA9 2026 ClearSky. All rights reserved."), /*#__PURE__*/React.createElement("a", {
-  href: "privacy.html"
+  href: "voicebee-privacy.html"
 }, "\u9690\u79C1\u653F\u7B56")));
 const App = () => /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement(Nav, null), /*#__PURE__*/React.createElement(SubNav, null), /*#__PURE__*/React.createElement("main", {
   id: "main"
